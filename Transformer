@@ -1,0 +1,8 @@
+Both an Encoder and a Decoder: 
+  BART
+
+Decoder-only:
+  GTP, BLOOM 
+
+Encoder-only architecture:
+  BERT 
