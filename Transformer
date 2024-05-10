@@ -1,8 +1,10 @@
-Both an Encoder and a Decoder: 
-  BART
 
-Decoder-only:
-  GTP, BLOOM 
-
-Encoder-only architecture:
-  BERT 
+  
+BERT                                                  GTP, BLOOM                                   BARD, T5 
+Encoder-only architecture                             Decoder-only                                 Encoder Decoder
+Mask Language Modelling                               Autoregressive casual Lamguare Modelling     Span Corruption
+Word                                                  Word                                         Phrases, Sentences      
+Bidirectional                                         Left to right                                Bidirectional
+Contextual meaning, relationship beween words         Prdicting sentences with order.              Document leve understading,long range dependencies
+Reconstruct text                                      Predict next token                           Span reconstruction
+Bidirectional Encoder Representation for Transformers
